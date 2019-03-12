@@ -135,22 +135,32 @@ ANN	0.5639	59.1438
 
 WHAT COULD WE HAVE DONE DIFFERENTLY?
 
-Implementation of ANN is really flexible, and hence we could have fine tuned, activation functions with different number of neurons and layers. This was very time consuming for 500 epochs and hence wasn’t tried comprehensively.
+Implementation of ANN is really flexible, and hence we could have fine tuned, activation functions with different number of neurons and layers. 
+
+This was very time consuming for 500 epochs and hence wasn’t tried comprehensively.
+
 We could have implemented one or more variable reduction techniques to the ANN and logistic model. The variable reduction techniques  weren’t tried on ANN and Logistic regression as ANN is supposed to be learning at a better rate. We would like to think that with relevant attributes it could have worked well.
+
 The classification of logistic model could have been done in a more comprehensive way to increase sensitivity or ‘classification’ of data. Since the data is highly skewed to the right, the classification is biased. 
+
 Also increasing the sensitivity of the less classified data was challenging. This could have been accomplished by oversampling and under sampling techniques.
 
 
-FUTURE SCORE
+FUTURE SCOPE:
 
 We could have used ‘XGBoost’ model for improving the optimizing process.
+
 Other models like Random Forest, Bagging, Boosting, and Gradient Boosting can be tested for accuracy.
 
-CONCLUSION
+
+CONCLUSION:
 
 Since the data is anonymous and not a lot of information can be derived from it, it is difficult to relate features, even after visualization. 
+
 The length to breadth ratio of data is very large. By encoding some attributes, we are adding more attributes to the dataset. This could add a lot of noise to the data as well. It gets more challenging to model the same dataset with more attributes.
+
 Most of the attributes are available in binary format. The model may be prone to ‘overfitting’.
+
 Many features in the dataset are highly co-linear implying they don’t contribute much.
 
 
